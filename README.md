@@ -32,7 +32,7 @@ form8ion plugin for projects using Gitea as host for their git repository
 ### Installation
 
 ```sh
-$ npm install @form8ion/gitea
+$ npm install @form8ion/gitea --save-prod
 ```
 
 ### Example
