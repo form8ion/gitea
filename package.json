@@ -54,7 +54,6 @@
   "devDependencies": {
     "@cucumber/cucumber": "12.2.0",
     "@form8ion/commitlint-config": "2.0.6",
-    "@form8ion/core": "4.10.0",
     "@form8ion/eslint-config": "7.0.13",
     "@form8ion/eslint-config-cucumber": "1.4.1",
     "@form8ion/eslint-config-vitest": "1.0.0",
@@ -77,5 +76,8 @@
     "rollup-plugin-auto-external": "2.0.0",
     "vitest": "3.2.4",
     "vitest-when": "0.8.0"
+  },
+  "dependencies": {
+    "@form8ion/core": "^4.10.0"
   }
 }
