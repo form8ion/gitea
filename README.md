@@ -26,6 +26,7 @@ form8ion plugin for projects using Gitea as host for their git repository
 [![npm][npm-badge]][npm-link]
 [![Try @form8ion/gitea on RunKit][runkit-badge]][runkit-link]
 [![license][license-badge]][license-link]
+![node][node-badge]
 
 <!--consumer-badges end -->
 
@@ -117,3 +118,5 @@ $ npm test
 [license-link]: LICENSE
 
 [license-badge]: https://img.shields.io/github/license/form8ion/gitea.svg?logo=opensourceinitiative
+
+[node-badge]: https://img.shields.io/node/v/@form8ion/gitea?logo=node.js

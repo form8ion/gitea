@@ -4,6 +4,9 @@
   "license": "MIT",
   "version": "0.0.0-semantically-released",
   "type": "module",
+  "engines": {
+    "node": "^22.21.0 || >=24.12"
+  },
   "author": "Matt Travi <npm@travi.org> (https://matt.travi.org)",
   "repository": "form8ion/gitea",
   "bugs": "https://github.com/form8ion/gitea/issues",
@@ -39,6 +42,7 @@
     "lint:js:fix": "run-s 'lint:js -- --fix'",
     "lint:publish": "publint --strict",
     "pretest": "run-s build",
+    "lint:engines": "ls-engines",
     "test": "npm-run-all --print-label --parallel lint:* --parallel test:*"
   },
   "files": [
@@ -65,6 +69,7 @@
     "gherkin-lint": "4.2.4",
     "husky": "9.1.7",
     "lockfile-lint": "4.14.1",
+    "ls-engines": "0.10.0",
     "mock-fs": "5.5.0",
     "npm-run-all2": "8.0.4",
     "publint": "0.3.12",
