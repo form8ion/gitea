@@ -68,6 +68,7 @@ jobs:
     runs-on: ubuntu-latest
     needs:
       - verify
+      - verify-matrix
       - release
     if: ${{ !cancelled() }}
     steps:
