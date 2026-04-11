@@ -83,7 +83,7 @@ $ npm test
 
 [coverage-link]: https://codecov.io/github/form8ion/gitea
 
-[coverage-badge]: https://img.shields.io/codecov/c/github/form8ion/gitea?logo=codecov
+[coverage-badge]: https://img.shields.io/codecov/c/github/form8ion/gitea/master?logo=codecov
 
 [slsa-badge]: https://slsa.dev/images/gh-badge-level2.svg
 
