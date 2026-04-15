@@ -3,7 +3,7 @@ repository:
   name: gitea
   description: form8ion plugin for projects using Gitea as host for their git repository
   private: false
-  homepage: https://npm.im/@form8ion/gitea
+  homepage: https://www.npmjs.com/package/@form8ion/gitea
 branches:
   - name: master
     protection: null
