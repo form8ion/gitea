@@ -11,7 +11,7 @@ describe('scaffold', () => {
   it('should create the `.gitea/` directory', async () => {
     const projectRoot = any.string();
 
-    await scaffoldGitea({projectRoot});
+    expect(await scaffoldGitea({projectRoot})).toEqual({vcs: {}});
 
     expect(fs.mkdir).toHaveBeenCalledWith(`${projectRoot}/.gitea`);
     expect(fs.writeFile).toHaveBeenCalledWith(`${projectRoot}/.gitea/.gitkeep`, '');
